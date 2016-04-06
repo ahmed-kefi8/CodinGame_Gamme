@@ -12,9 +12,10 @@ var initialTX = parseInt(inputs[2]); // Thor's starting X position
 var initialTY = parseInt(inputs[3]); // Thor's starting Y position
 
 /* explication du code :
-La boucle "while (true)" s'exécute une fois pour chaque pas que fait Thor, à chaque fois on teste la position de Thor sur les axes Y et X par rapport a 
-la position du 'light'.si Thor et sur le même axe Y que le 'light' on le bougera sur l'axe X seulement et vice-versa d'où les comparaisons strictes, sinon
-la direction dans laquelle bougera Thor sera la concaténation de (N ou S) avec (W ou E) pour le bouger en diagonale dans la bonne direction :) .
+La boucle "while (true)" s'exécute une fois pour chaque pas que fait Thor, à chaque fois on teste la position de Thor 
+sur les axes Y et X par rapport a la position du 'light'.si Thor et sur le même axe Y que le 'light' on le bougera
+sur l'axe X seulement et vice-versa d'où les comparaisons strictes, sinon la direction dans laquelle bougera Thor 
+sera la concaténation de (N ou S) avec (W ou E) pour le bouger en diagonale dans la bonne direction :) .
 */
 // game loop
 while (true) {
