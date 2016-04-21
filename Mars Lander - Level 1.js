@@ -28,10 +28,10 @@ while (true) {
 	/* on va faire un test si l'lalltitude est > à 2200m ( chiffre obtenu suite à quelques tests) on tourne les moteurs
 	à la puissance 1 sinon on les tourne à la puissance 4 pour décélérer et descendre sous les 40m /s au contact 
 	de la surface de Mars (bien sûr il y a d'autres façons de faire comme par exemple faire des tests sur la vitesse .... */
-    if (Y > 2200)
-    {print('0 1');} // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
+    if (vSpeed < -20) // 20 pour poser le Mars lander doucement
+    print('0 4'); // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
     else
-	{print('0 4');}
+ print('0 2');
 }
 
 
