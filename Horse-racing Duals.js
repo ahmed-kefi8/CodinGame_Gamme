@@ -1,6 +1,7 @@
 /* au départ j'ai écrit ce code qui permet grace aux 2 boucles imbriquées de faire toutes 
 les comparaisons possibles entre les cases du tableau, ça marche bien sauf que c'est long 
-et du coup pour le 3éme test où on a 99999 chevaux ça coince d'ou les 2éme solution*/
+et du coup pour le 3éme test où on a 99999 chevaux ça coince d'ou la 2éme solution
+et bien sûr faut toujours optimiser le code au mieux pour avoir des solutions légères et performantes*/
 
 var list = [];
 var N = parseInt(readline());
